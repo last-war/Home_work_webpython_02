@@ -1,15 +1,15 @@
-from .addressbook import AddressBook, Record
-from .notebook import NoteBook, Note
-from .sorter import sorter
-from .weather_func import get_weather
+from addressbook import AddressBook, Record
+from notebook import NoteBook, Note
+from sorter import sorter
+from weather_func import get_weather
 import difflib
 from tabulate import tabulate
 import holidays
 from datetime import date
 
 
-from .constants import FILENAME_CONTACTS
-from .constants import FILENAME_NOTES
+from constants import FILENAME_CONTACTS
+from constants import FILENAME_NOTES
 
 CONTACTS = AddressBook()
 NOTES = NoteBook()

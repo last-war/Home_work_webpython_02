@@ -1,5 +1,5 @@
 from datetime import datetime
-from .mainbook import MainBook, MainBookRecord
+from mainbook import MainBook, MainBookRecord
 
 
 class Note(MainBookRecord):

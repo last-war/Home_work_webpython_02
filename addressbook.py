@@ -1,6 +1,6 @@
 from datetime import datetime, date
 import re
-from felis_assistant.mainbook import MainBook, MainBookRecord
+from mainbook import MainBook, MainBookRecord
 
 class AddressBook(MainBook):
     """Class AddressBook - general class for contact book"""

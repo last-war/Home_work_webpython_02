@@ -2,7 +2,7 @@ from os import listdir
 from pathlib import Path
 import shutil
 import re
-from .constants import IMAGES_SUFFIX, DOCUMENTS_SUFFIX, AUDIO_SUFFIX, VIDEO_SUFFIX, ARCHIVES_SUFFIX
+from constants import IMAGES_SUFFIX, DOCUMENTS_SUFFIX, AUDIO_SUFFIX, VIDEO_SUFFIX, ARCHIVES_SUFFIX
 
 
 def normalize(in_string: str) -> str:

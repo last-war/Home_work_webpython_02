@@ -1,4 +1,4 @@
-from felis_assistant.functions import *
+from functions import *
 
 
 def main():
